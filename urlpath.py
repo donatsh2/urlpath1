@@ -44,7 +44,7 @@ def tomap(basepath):
 tobepathed = []
 
 while int(input('Anything To Add , -1 To Cancel :>')) != int(-1):
-    a = str(input('-> URL or IP Address >:'))
+    a = str(input('-> URL >:'))
     tobepathed.append(a)
     del a
 
